@@ -1,16 +1,41 @@
+body {
+    background-color: gainsboro;
+}
+
+.header {
+    background-color: aliceblue;
+    padding: .5em;
+    border-color: brown;
+    border-style: solid;
+    text-align: center;
+}
+
+.dogtoy {
+    width: 10%;
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+}
+
+h2 {
+    text-align: center;
+}
+
 table {
     background-color: aliceblue;
     border-style: outset;
     border-color: brown;
+    padding: 2%;
+    align-content: center;
+    width: 100%;
 }
 
 th, td {
     border: 1px solid;
     text-align: center;
-    width: 30%
+    width: 20%
 }
 
-
-table {
-    padding: 2%;
+th {
+    font-weight: 64px;
 }
