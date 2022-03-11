@@ -23,6 +23,7 @@ h2 {
 
 table {
     background-color: aliceblue;
+    border-collapse: collapse;
     border-style: outset;
     border-color: brown;
     padding: 2%;
@@ -39,3 +40,4 @@ th, td {
 th {
     font-size: 24px;
 }
+
